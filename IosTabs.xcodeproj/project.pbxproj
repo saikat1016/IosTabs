@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		4A3E533422E43004006168EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E533322E43004006168EC /* AppDelegate.swift */; };
-		4A3E533622E43004006168EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E533522E43004006168EC /* ViewController.swift */; };
+		4A3E533622E43004006168EC /* ViewController in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E533522E43004006168EC /* ViewController */; };
 		4A3E533922E43004006168EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E533722E43004006168EC /* Main.storyboard */; };
 		4A3E533B22E43005006168EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E533A22E43005006168EC /* Assets.xcassets */; };
 		4A3E533E22E43005006168EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E533C22E43005006168EC /* LaunchScreen.storyboard */; };
+		4ABBF0EC22E5900D00AD2D22 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABBF0EB22E5900D00AD2D22 /* TableViewController1.swift */; };
+		4ABBF0EE22E5902F00AD2D22 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABBF0ED22E5902F00AD2D22 /* TableViewController2.swift */; };
+		4ABBF0F022E5904300AD2D22 /* TableViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABBF0EF22E5904300AD2D22 /* TableViewController3.swift */; };
+		4ABBF0F222E5A2B000AD2D22 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABBF0F122E5A2B000AD2D22 /* TableViewCell1.swift */; };
+		4ABBF0F422E5A55200AD2D22 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABBF0F322E5A55200AD2D22 /* TableViewCell2.swift */; };
+		4ABBF0F622E5A56400AD2D22 /* TableViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABBF0F522E5A56400AD2D22 /* TableViewCell3.swift */; };
+		4ABBF0FB22E5BCBB00AD2D22 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABBF0FA22E5BCBB00AD2D22 /* RootViewController.swift */; };
+		4ABBF0FD22E5C16200AD2D22 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABBF0FC22E5C16200AD2D22 /* TabViewController.swift */; };
+		D4CFD052470C6C6EF3EC16B6 /* Pods_IosTabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A94F19F89F1B864269BBBD /* Pods_IosTabs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27A94F19F89F1B864269BBBD /* Pods_IosTabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosTabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3E533022E43004006168EC /* IosTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3E533322E43004006168EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A3E533522E43004006168EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A3E533522E43004006168EC /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = text; path = ViewController; sourceTree = "<group>"; };
 		4A3E533822E43004006168EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A3E533A22E43005006168EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A3E533D22E43005006168EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A3E533F22E43005006168EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABBF0EB22E5900D00AD2D22 /* TableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController1.swift; sourceTree = "<group>"; };
+		4ABBF0ED22E5902F00AD2D22 /* TableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
+		4ABBF0EF22E5904300AD2D22 /* TableViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController3.swift; sourceTree = "<group>"; };
+		4ABBF0F122E5A2B000AD2D22 /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		4ABBF0F322E5A55200AD2D22 /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		4ABBF0F522E5A56400AD2D22 /* TableViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell3.swift; sourceTree = "<group>"; };
+		4ABBF0FA22E5BCBB00AD2D22 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		4ABBF0FC22E5C16200AD2D22 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		7017476A1BEBDC8527333A64 /* Pods-IosTabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosTabs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IosTabs/Pods-IosTabs.debug.xcconfig"; sourceTree = "<group>"; };
+		BADA65086D2BBD2B6D2DDB6C /* Pods-IosTabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosTabs.release.xcconfig"; path = "Pods/Target Support Files/Pods-IosTabs/Pods-IosTabs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CFD052470C6C6EF3EC16B6 /* Pods_IosTabs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		325ABF2EE099003284D6AF55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27A94F19F89F1B864269BBBD /* Pods_IosTabs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4A3E532722E43004006168EC = {
 			isa = PBXGroup;
 			children = (
 				4A3E533222E43004006168EC /* IosTabs */,
 				4A3E533122E43004006168EC /* Products */,
+				6E00D4EE1CD797F7D435E4C4 /* Pods */,
+				325ABF2EE099003284D6AF55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +86,30 @@
 			isa = PBXGroup;
 			children = (
 				4A3E533322E43004006168EC /* AppDelegate.swift */,
-				4A3E533522E43004006168EC /* ViewController.swift */,
+				4A3E533522E43004006168EC /* ViewController */,
 				4A3E533722E43004006168EC /* Main.storyboard */,
 				4A3E533A22E43005006168EC /* Assets.xcassets */,
 				4A3E533C22E43005006168EC /* LaunchScreen.storyboard */,
 				4A3E533F22E43005006168EC /* Info.plist */,
+				4ABBF0EB22E5900D00AD2D22 /* TableViewController1.swift */,
+				4ABBF0ED22E5902F00AD2D22 /* TableViewController2.swift */,
+				4ABBF0EF22E5904300AD2D22 /* TableViewController3.swift */,
+				4ABBF0F122E5A2B000AD2D22 /* TableViewCell1.swift */,
+				4ABBF0F322E5A55200AD2D22 /* TableViewCell2.swift */,
+				4ABBF0F522E5A56400AD2D22 /* TableViewCell3.swift */,
+				4ABBF0FA22E5BCBB00AD2D22 /* RootViewController.swift */,
+				4ABBF0FC22E5C16200AD2D22 /* TabViewController.swift */,
 			);
 			path = IosTabs;
+			sourceTree = "<group>";
+		};
+		6E00D4EE1CD797F7D435E4C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7017476A1BEBDC8527333A64 /* Pods-IosTabs.debug.xcconfig */,
+				BADA65086D2BBD2B6D2DDB6C /* Pods-IosTabs.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A3E534222E43005006168EC /* Build configuration list for PBXNativeTarget "IosTabs" */;
 			buildPhases = (
+				40B3257EE32E5BD7BFF2E076 /* [CP] Check Pods Manifest.lock */,
 				4A3E532C22E43004006168EC /* Sources */,
 				4A3E532D22E43004006168EC /* Frameworks */,
 				4A3E532E22E43004006168EC /* Resources */,
+				72A8B8595F702F422BDF0769 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +180,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40B3257EE32E5BD7BFF2E076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IosTabs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72A8B8595F702F422BDF0769 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IosTabs/Pods-IosTabs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IosTabs/Pods-IosTabs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A3E532C22E43004006168EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A3E533622E43004006168EC /* ViewController.swift in Sources */,
+				4A3E533622E43004006168EC /* ViewController in Sources */,
+				4ABBF0EC22E5900D00AD2D22 /* TableViewController1.swift in Sources */,
+				4ABBF0FB22E5BCBB00AD2D22 /* RootViewController.swift in Sources */,
+				4ABBF0F422E5A55200AD2D22 /* TableViewCell2.swift in Sources */,
+				4ABBF0EE22E5902F00AD2D22 /* TableViewController2.swift in Sources */,
+				4ABBF0F222E5A2B000AD2D22 /* TableViewCell1.swift in Sources */,
+				4ABBF0F622E5A56400AD2D22 /* TableViewCell3.swift in Sources */,
 				4A3E533422E43004006168EC /* AppDelegate.swift in Sources */,
+				4ABBF0FD22E5C16200AD2D22 /* TabViewController.swift in Sources */,
+				4ABBF0F022E5904300AD2D22 /* TableViewController3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +385,7 @@
 		};
 		4A3E534322E43005006168EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7017476A1BEBDC8527333A64 /* Pods-IosTabs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +403,7 @@
 		};
 		4A3E534422E43005006168EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADA65086D2BBD2B6D2DDB6C /* Pods-IosTabs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
